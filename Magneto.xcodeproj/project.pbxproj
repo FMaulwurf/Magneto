@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC4323D41F877CE700436D49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4323D31F877CE700436D49 /* AppDelegate.swift */; };
+		DC4323D61F877CE700436D49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4323D51F877CE700436D49 /* ViewController.swift */; };
+		DC4323D91F877CE700436D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4323D71F877CE700436D49 /* Main.storyboard */; };
+		DC4323DB1F877CE700436D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC4323DA1F877CE700436D49 /* Assets.xcassets */; };
+		DC4323DE1F877CE700436D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC4323DC1F877CE700436D49 /* LaunchScreen.storyboard */; };
+		DC4323E91F877CE700436D49 /* MagnetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4323E81F877CE700436D49 /* MagnetoTests.swift */; };
+		DC4323F41F877CE700436D49 /* MagnetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4323F31F877CE700436D49 /* MagnetoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC4323E51F877CE700436D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4323C81F877CE700436D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4323CF1F877CE700436D49;
+			remoteInfo = Magneto;
+		};
+		DC4323F01F877CE700436D49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC4323C81F877CE700436D49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC4323CF1F877CE700436D49;
+			remoteInfo = Magneto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC4323D01F877CE700436D49 /* Magneto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magneto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4323D31F877CE700436D49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC4323D51F877CE700436D49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC4323D81F877CE700436D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC4323DA1F877CE700436D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC4323DD1F877CE700436D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC4323DF1F877CE700436D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4323E41F877CE700436D49 /* MagnetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4323E81F877CE700436D49 /* MagnetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetoTests.swift; sourceTree = "<group>"; };
+		DC4323EA1F877CE700436D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC4323EF1F877CE700436D49 /* MagnetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagnetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC4323F31F877CE700436D49 /* MagnetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnetoUITests.swift; sourceTree = "<group>"; };
+		DC4323F51F877CE700436D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC4323CD1F877CE700436D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323E11F877CE700436D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323EC1F877CE700436D49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC4323C71F877CE700436D49 = {
+			isa = PBXGroup;
+			children = (
+				DC4323D21F877CE700436D49 /* Magneto */,
+				DC4323E71F877CE700436D49 /* MagnetoTests */,
+				DC4323F21F877CE700436D49 /* MagnetoUITests */,
+				DC4323D11F877CE700436D49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC4323D11F877CE700436D49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC4323D01F877CE700436D49 /* Magneto.app */,
+				DC4323E41F877CE700436D49 /* MagnetoTests.xctest */,
+				DC4323EF1F877CE700436D49 /* MagnetoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC4323D21F877CE700436D49 /* Magneto */ = {
+			isa = PBXGroup;
+			children = (
+				DC4323D31F877CE700436D49 /* AppDelegate.swift */,
+				DC4323D51F877CE700436D49 /* ViewController.swift */,
+				DC4323D71F877CE700436D49 /* Main.storyboard */,
+				DC4323DA1F877CE700436D49 /* Assets.xcassets */,
+				DC4323DC1F877CE700436D49 /* LaunchScreen.storyboard */,
+				DC4323DF1F877CE700436D49 /* Info.plist */,
+			);
+			path = Magneto;
+			sourceTree = "<group>";
+		};
+		DC4323E71F877CE700436D49 /* MagnetoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4323E81F877CE700436D49 /* MagnetoTests.swift */,
+				DC4323EA1F877CE700436D49 /* Info.plist */,
+			);
+			path = MagnetoTests;
+			sourceTree = "<group>";
+		};
+		DC4323F21F877CE700436D49 /* MagnetoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC4323F31F877CE700436D49 /* MagnetoUITests.swift */,
+				DC4323F51F877CE700436D49 /* Info.plist */,
+			);
+			path = MagnetoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC4323CF1F877CE700436D49 /* Magneto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4323F81F877CE700436D49 /* Build configuration list for PBXNativeTarget "Magneto" */;
+			buildPhases = (
+				DC4323CC1F877CE700436D49 /* Sources */,
+				DC4323CD1F877CE700436D49 /* Frameworks */,
+				DC4323CE1F877CE700436D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magneto;
+			productName = Magneto;
+			productReference = DC4323D01F877CE700436D49 /* Magneto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC4323E31F877CE700436D49 /* MagnetoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4323FB1F877CE700436D49 /* Build configuration list for PBXNativeTarget "MagnetoTests" */;
+			buildPhases = (
+				DC4323E01F877CE700436D49 /* Sources */,
+				DC4323E11F877CE700436D49 /* Frameworks */,
+				DC4323E21F877CE700436D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4323E61F877CE700436D49 /* PBXTargetDependency */,
+			);
+			name = MagnetoTests;
+			productName = MagnetoTests;
+			productReference = DC4323E41F877CE700436D49 /* MagnetoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC4323EE1F877CE700436D49 /* MagnetoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC4323FE1F877CE700436D49 /* Build configuration list for PBXNativeTarget "MagnetoUITests" */;
+			buildPhases = (
+				DC4323EB1F877CE700436D49 /* Sources */,
+				DC4323EC1F877CE700436D49 /* Frameworks */,
+				DC4323ED1F877CE700436D49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC4323F11F877CE700436D49 /* PBXTargetDependency */,
+			);
+			name = MagnetoUITests;
+			productName = MagnetoUITests;
+			productReference = DC4323EF1F877CE700436D49 /* MagnetoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC4323C81F877CE700436D49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Felix M.";
+				TargetAttributes = {
+					DC4323CF1F877CE700436D49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					DC4323E31F877CE700436D49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC4323CF1F877CE700436D49;
+					};
+					DC4323EE1F877CE700436D49 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DC4323CF1F877CE700436D49;
+					};
+				};
+			};
+			buildConfigurationList = DC4323CB1F877CE700436D49 /* Build configuration list for PBXProject "Magneto" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC4323C71F877CE700436D49;
+			productRefGroup = DC4323D11F877CE700436D49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC4323CF1F877CE700436D49 /* Magneto */,
+				DC4323E31F877CE700436D49 /* MagnetoTests */,
+				DC4323EE1F877CE700436D49 /* MagnetoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC4323CE1F877CE700436D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4323DE1F877CE700436D49 /* LaunchScreen.storyboard in Resources */,
+				DC4323DB1F877CE700436D49 /* Assets.xcassets in Resources */,
+				DC4323D91F877CE700436D49 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323E21F877CE700436D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323ED1F877CE700436D49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC4323CC1F877CE700436D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4323D61F877CE700436D49 /* ViewController.swift in Sources */,
+				DC4323D41F877CE700436D49 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323E01F877CE700436D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4323E91F877CE700436D49 /* MagnetoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC4323EB1F877CE700436D49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC4323F41F877CE700436D49 /* MagnetoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC4323E61F877CE700436D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4323CF1F877CE700436D49 /* Magneto */;
+			targetProxy = DC4323E51F877CE700436D49 /* PBXContainerItemProxy */;
+		};
+		DC4323F11F877CE700436D49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC4323CF1F877CE700436D49 /* Magneto */;
+			targetProxy = DC4323F01F877CE700436D49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DC4323D71F877CE700436D49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4323D81F877CE700436D49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC4323DC1F877CE700436D49 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC4323DD1F877CE700436D49 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC4323F61F877CE700436D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC4323F71F877CE700436D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC4323F91F877CE700436D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = Magneto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.Magneto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC4323FA1F877CE700436D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = Magneto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.Magneto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC4323FC1F877CE700436D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = MagnetoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.MagnetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magneto.app/Magneto";
+			};
+			name = Debug;
+		};
+		DC4323FD1F877CE700436D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = MagnetoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.MagnetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Magneto.app/Magneto";
+			};
+			name = Release;
+		};
+		DC4323FF1F877CE700436D49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = MagnetoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.MagnetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magneto;
+			};
+			name = Debug;
+		};
+		DC4324001F877CE700436D49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CTJ976S99Z;
+				INFOPLIST_FILE = MagnetoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.maulwurf.MagnetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Magneto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC4323CB1F877CE700436D49 /* Build configuration list for PBXProject "Magneto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4323F61F877CE700436D49 /* Debug */,
+				DC4323F71F877CE700436D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4323F81F877CE700436D49 /* Build configuration list for PBXNativeTarget "Magneto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4323F91F877CE700436D49 /* Debug */,
+				DC4323FA1F877CE700436D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4323FB1F877CE700436D49 /* Build configuration list for PBXNativeTarget "MagnetoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4323FC1F877CE700436D49 /* Debug */,
+				DC4323FD1F877CE700436D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC4323FE1F877CE700436D49 /* Build configuration list for PBXNativeTarget "MagnetoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC4323FF1F877CE700436D49 /* Debug */,
+				DC4324001F877CE700436D49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC4323C81F877CE700436D49 /* Project object */;
+}

@@ -36,9 +36,9 @@ class ViewController: UIViewController {
             self.yValue.text = truncate(field.y, self.maxDisplayedLength)
             self.zValue.text = truncate(field.z, self.maxDisplayedLength)
             
-            let x: Double = -field.x;
-            let y: Double = field.y;
-            let angle: Double = atan2(y, x);
+            let x: Double = -field.x
+            let y: Double = field.y
+            let angle: Double = atan2(y, x) - 90
             
             arrowImage.transform = CGAffineTransform(rotationAngle: CGFloat(angle))
                         
